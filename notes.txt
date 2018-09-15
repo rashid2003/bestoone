@@ -23,7 +23,7 @@ ADD NEW Generating a new SSH key For Fix that :<br>
 # Adding your SSH key to the ssh-agent<br>
 Before adding a new SSH key to the ssh-agent to manage your keys, you should have checked for <a href="https://help.github.com/articles/checking-for-existing-ssh-keys/">existing SSH keys</a> and <a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key"> generated a new SSH key</a>. <br>
 1-Start the ssh-agent in the background.<br>
-     eval "$(ssh-agent -s)"<br>
-      Agent pid 59566<br>
+           eval "$(ssh-agent -s)"<br>
+            Agent pid 59566<br>
 2-Add your SSH private key to the ssh-agent. If you created your key with a different name, or if you are adding an existing key that has a different name, replace id_rsa in the command with the name of your private key file.<br>
       ssh-add ~/.ssh/id_rsa<br>
