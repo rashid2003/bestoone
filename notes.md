@@ -1,6 +1,8 @@
-sudo apt install virtualenv
-virtualenv .vts
-source .vts/bin/activate
+For install virtualenv <br>
+
+###      sudo apt install virtualenv<br>
+###      virtualenv .vts<br>
+###     source .vts/bin/activate<br>
 
 
 EROR :<br>
