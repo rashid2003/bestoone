@@ -119,3 +119,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+RECAPTCHA_SECRET_KEY= '6LfbOnAUAAAAAIj4ClojCFpBmeSwASQwmtmra6V8'
+POSTMARK_API_TOKEN='postmark api token for sending confirmation emails when signing up'
