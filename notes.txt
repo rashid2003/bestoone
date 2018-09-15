@@ -1,5 +1,0 @@
-sudo apt install virtualenv
-virtualenv .vts
-source .vts/bin/activate
-
-
